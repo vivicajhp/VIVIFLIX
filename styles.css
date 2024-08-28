@@ -1,0 +1,65 @@
+body {
+   background: rgb(0, 0, 0);
+   color: white;
+   margin: 0px;
+}
+
+header {
+   font-family: "Jersey 10", sans-serif;
+   border-bottom: solid 2px rgb(196, 2, 2);
+   padding: 5px;
+   font-size: 55px;
+   color: rgb(206, 4, 4);
+
+}
+
+.chamada {
+   background: rgb(91, 8, 0);
+   padding-bottom: 20px;
+   padding-top: 10px;
+   display: flex;
+   justify-content: center;
+}
+
+.texto {
+   margin-right: 50px;
+   font-family: "Chakra Petch", sans-serif;
+   font-size: 25px;
+}
+
+p {
+   font-size: 18px;
+}
+
+h2 {
+   font-family: "Jersey 10", sans-serif;
+   font-size: 16;
+   color: rgb(238, 62, 62);
+
+}
+
+img {
+   height: 250px
+}
+
+.videos{
+   display: flex;
+   overflow-x: auto;
+   gap: 15px;
+
+}
+
+.videozinhos{
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-bottom: 70;
+   margin-top: 20;
+}
+
+.videos img{
+   opacity: 0.5;
+}
+
+.videos img:hover{
+   opacity: 1.0;
+}
